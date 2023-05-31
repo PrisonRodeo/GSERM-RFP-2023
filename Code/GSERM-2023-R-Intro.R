@@ -1,8 +1,8 @@
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 # INTRODUCTION                                 ####
 #
-# This is some code from "Analyzing Panel 
-# Data," designed to provide a basic 
+# This is some code from "Regression for
+# Publishing," designed to provide a basic 
 # introduction to the R language.
 #
 # NOTE: Anything you see to the right of a "#"
@@ -13,7 +13,7 @@
 #
 # File initially created June 11, 2021
 #
-# File last updated May 18, 2023
+# File last updated May 30, 2023
 #
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 # OBJECTS                                 #########
@@ -189,7 +189,7 @@ is.matrix(baz)
 # menu option above, or by using "setwd". So, 
 # for example:
 
-setwd("~/Dropbox (Personal)/GSERM/Panel-2023")
+setwd("~/Dropbox (Personal)/GSERM/RFP-2023")
 
 # Reading the data is then easy:
 
@@ -226,7 +226,7 @@ library(readr)
 # This is the part that actually gets 
 # the data:
 
-SCOTUS <- read_csv("https://raw.githubusercontent.com/PrisonRodeo/GSERM-Panel-APD/master/Data/SCOTUS-votes.csv")
+SCOTUS <- read_csv("https://raw.githubusercontent.com/PrisonRodeo/GSERM-RFP-2023/main/Data/SCOTUS-votes.csv")
 
 # From there, we can do things like "look
 # at" the data:
